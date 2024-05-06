@@ -1,0 +1,45 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+/* tr {
+  text-align: center;
+} */
+
+.strong-td {
+  text-align: center;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.color-orange {
+  color: orange;
+}
+
+.color-purple {
+  color: purple;
+}
+
+.back-red {
+  background-color: red;
+}
+
+.back-green {
+  background-color: green;
+}
+
+.back-blue {
+  background-color: blue;
+}
+
+.centro {
+  margin: 0 auto;
+}

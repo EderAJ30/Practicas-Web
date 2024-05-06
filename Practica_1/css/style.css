@@ -1,0 +1,27 @@
+.color-naranja {
+  color: orange;
+}
+
+.italica-color-fondo {
+  background-color: beige;
+  color: darkblue;
+}
+
+.p-color-azul {
+  color: darkcyan;
+}
+
+.italica-conceptos-color-fondo {
+  background-color: black;
+  color: yellow;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}

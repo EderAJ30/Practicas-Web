@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practica 4</title>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <form>
+      <label
+        >Nombre:
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+          pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+          title="Nombre, solo acepta letras y espacios en blanco"
+        />
+      </label>
+      <br /><br />
+      <label
+        >Apellidos:
+        <input
+          type="text"
+          name="apellidos"
+          placeholder="Escribe tus Apellidos"
+          pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+          title="Apellidos, solo acepta letras y espacios en blanco"
+          required
+        />
+      </label>
+      <br /><br />
+      <label for="radio_hombre"
+        >Sexo:
+        <input type="radio" name="sexo" id="radio_hombre" value="hom" />hombre
+      </label>
+      <label for="radio_mujer">
+        <input type="radio" name="sexo" id="radio_mujer" value="muj" />mujer
+      </label>
+      <br /><br />
+      <label
+        >Correo:
+        <input
+          type="email"
+          name="correo"
+          placeholder="Escribe tu correo"
+          pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+          title="Correo invalido"
+          required
+        />
+      </label>
+      <br /><br />
+      <label
+        >Direccion: <br />
+        <br />
+        <textarea
+          class="textarea"
+          name="comentarios"
+          id=""
+          cols="50"
+          rows="5"
+          placeholder="Escribe tu direccion"
+        ></textarea>
+      </label>
+      <br /><br />
+      <label>
+        <input type="checkbox" /> Deseo recibir informacion sobre novedades y
+        ofertas
+      </label>
+      <br /><br />
+      <label>
+        <input type="checkbox" /> Declaro haber leido y aceptar las condiciones
+        generales del programa y la normatividad sobre proteccion de datos
+      </label>
+      <br /><br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
