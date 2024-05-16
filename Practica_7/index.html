@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Practica_7/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/Practica_7/img/logo.png" />
+    <title>Practica 7</title>
+  </head>
+  <body>
+    <br />
+    <header>
+      <div class="container-logo">
+        <br />
+        <img src="/Practica_7/img/Casio_logo.svg.png" alt="logo-casio" />
+      </div>
+    </header>
+    <main>
+      <br />
+      <section class="container-reloj-marlin">
+        <article>
+          <img src="/Practica_7/img/marlin.webp" alt="marlin" width="200px" />
+          <p>Casio</p>
+          <h2>MDV-106-1AV</h2>
+          <p>MX$1199</p>
+          <details id="detalles">
+            <summary>Ver detalles de la compra</summary>
+            <form action="/procesar_compra" method="post">
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+              /><br /><br />
+              <label for="tarjeta">Número de tarjeta:</label>
+              <input
+                type="text"
+                id="tarjeta"
+                name="tarjeta"
+                required
+              /><br /><br />
+              <label for="direccion">Dirección de envío:</label>
+              <textarea id="direccion" name="direccion" required></textarea
+              ><br /><br />
+            </form>
+          </details>
+          <input type="button" value="Comprar ahora" />
+        </article>
+      </section>
+      <section class="container-reloj-aesterik">
+        <article>
+          <img src="/Practica_7/img/image.avif" alt="aestrik" width="300px" />
+          <p>Casio</p>
+          <h2>AE-1200WHD-7AV</h2>
+          <p>MX$799</p>
+          <details id="detalles">
+            <summary>Ver detalles de la compra</summary>
+            <br />
+            <form action="/procesar_compra" method="post">
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+              /><br /><br />
+              <label for="tarjeta">Número de tarjeta:</label>
+              <input
+                type="text"
+                id="tarjeta"
+                name="tarjeta"
+                required
+              /><br /><br />
+              <label for="direccion">Dirección de envío:</label>
+              <textarea id="direccion" name="direccion" required></textarea
+              ><br /><br />
+            </form>
+          </details>
+          <input type="button" value="Comprar ahora" />
+        </article>
+      </section>
+      <section class="container-reloj-ghsock">
+        <article>
+          <img src="/Practica_7/img/gshok.avif" alt="gshock" width="300px" />
+          <p>Casio G-SHOCK</p>
+          <h2>DW-5600BCE-1</h2>
+          <p>MX$2999</p>
+          <details id="detalles">
+            <summary>Ver detalles de la compra</summary>
+            <form action="/procesar_compra" method="post">
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+              /><br /><br />
+              <label for="tarjeta">Número de tarjeta:</label>
+              <input
+                type="text"
+                id="tarjeta"
+                name="tarjeta"
+                required
+              /><br /><br />
+              <label for="direccion">Dirección de envío:</label>
+              <textarea id="direccion" name="direccion" required></textarea
+              ><br /><br />
+            </form>
+          </details>
+          <input type="button" value="Comprar ahora" />
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <a href="malito:ederaj30@gmail.com">Contactame aqui</a>
+        <p>© 2024 Eder Avalos Juarez. Todos los derechos reservados.</p>
+      </section>
+    </footer>
+  </body>
+</html>

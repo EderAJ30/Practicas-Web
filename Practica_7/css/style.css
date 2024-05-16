@@ -1,0 +1,103 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.container-logo img {
+  width: 400px;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.container-logo img {
+  width: 200px;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.container-reloj-marlin,
+.container-reloj-aesterik {
+  margin-bottom: 20px;
+}
+
+article {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+details {
+  margin-top: 10px;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* p.truncado {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+input[type="button"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #efefef;
+  color: black;
+}
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  text-align: center;
+  color: #0056b3;
+}

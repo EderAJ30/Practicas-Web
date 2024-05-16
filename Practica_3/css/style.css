@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-color: #2d3047;
   color: white;
   padding: 3rem 2rem;
 }
@@ -21,18 +21,24 @@ header h1 {
 .container {
   width: 400px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+  justify-content: center;
 }
 
 section article {
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.1s ease;
   background-color: white;
   margin: 1rem 0;
   border-radius: 0.5rem;
   padding: 0.25rem 0;
 }
 
-section article:hover {
+section article:hover,
+section article:active {
   box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0, 0.3);
+  transform: translateY(0.1rem);
 }
 
 section article h2,
@@ -41,25 +47,28 @@ section article p {
 }
 
 footer {
-  background-color: black;
+  background-color: #2d3047;
   padding: 3rem;
   color: white;
 }
 
 footer section {
-  float: center;
+  text-align: center;
 }
 
 footer p {
   margin: 0;
+  text-align: center;
 }
 
 footer a {
+  text-align: center;
   transition: color 0.3s ease;
   color: white;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: cadetblue;
+  text-align: center;
+  color: crimson;
 }

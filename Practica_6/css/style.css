@@ -1,0 +1,107 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+section {
+  transition: box-shadow 0.3s ease, transform 0.1s ease;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+section article:hover,
+section article:active {
+  box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0, 0.3);
+  transform: translateY(0.1rem);
+}
+
+article {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+}
+article:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+h2 {
+  font-size: 1.5rem;
+  margin: 10px;
+  color: #333;
+}
+p {
+  margin: 10px;
+  color: #666;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tr:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+details {
+  margin: 10px;
+}
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
