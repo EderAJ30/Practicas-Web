@@ -44,9 +44,16 @@ h2 {
 }
 
 article {
+  transition: box-shadow 0.3s ease, transform 0.1s ease;
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 10px;
+}
+
+article:hover,
+article:active {
+  box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0, 0.3);
+  transform: translateY(0.1rem);
 }
 
 img {
